@@ -216,3 +216,25 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# 模型缓存
+models-cache/
+*.bin
+*.gguf
+
+# 本地存储数据
+local-data/
+meeting-cache/
+vector-db/
+
+# 客户端打包产物
+client-tauri/target/
+client-tauri/node_modules/
+
+# python缓存
+__pycache__/
+*.pyd
+*.venv
+.venv/
+
+# docker临时文件
+docker-data/

@@ -1,0 +1,14 @@
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+websockets
+whisper
+torch
+vllm
+chromadb
+pdfplumber
+python-docx
+openpyxl
+pyannote.audio
+pyaudio
+cryptography
+python-multipart

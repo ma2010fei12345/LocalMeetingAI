@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  meeting-server:
+    build: ./model-docker
+    ports:
+      - "8000:8000"
+    volumes:
+      - ../../local-data:/app/local-data
+    restart: always

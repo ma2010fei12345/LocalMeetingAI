@@ -1,7 +1,10 @@
 from fastapi import FastAPI
 import uvicorn
+from meeting-stream.ws_server import router as ws_router
 
 app = FastAPI(title="LocalMeetingAI Backend Core")
+# 注册实时会议websocket路由
+app.include_router(ws_router)
 
 @app.get("/health")
 def health_check():

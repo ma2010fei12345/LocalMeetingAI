@@ -21,18 +21,6 @@
       }
     ],
    "security": {
-     "csp": null,
-     "allowlist": {
-        "all": false,
-        "fs": {
-          "scope": ["$APPDATA/*", "$DOCUMENT/*"]
-        },
-        "window": true,
-        "shell": {
-          "open": false
-        },
-        "http": false
-      }
    }
   },
   "bundle": {
